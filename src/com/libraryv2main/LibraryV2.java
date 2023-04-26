@@ -37,6 +37,7 @@ public class LibraryV2 {
                                 System.exit(1);
                                 break;
                         }
+                        break;
                     case 2:
                         System.out.println("Enter your name:");
                         librariansMethods.check();
@@ -88,6 +89,7 @@ public class LibraryV2 {
                                 System.exit(1);
                                 break;
                         }
+                    break;
                     default:
                         System.out.println("Invalid");
                         System.exit(1);
